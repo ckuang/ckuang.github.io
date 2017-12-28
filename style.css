@@ -1,0 +1,111 @@
+body {
+  background-color: #FAFAFA;
+  font-family: "Proxima-Nova";
+  height: 100%;
+  font-size: 16px;
+  margin: auto;
+  width: 800px;
+  position: relative;
+  margin-top: 50px;
+}
+
+@font-face {
+  font-family: "Proxima-Nova";
+  src: url('./font/Proxima Nova SemiBold.otf');
+}
+@font-face {
+  font-family: "Proxima-Nova";
+  font-weight: bold;
+  src: url('./font/Proxima Nova Extrabold.otf');
+}
+
+header {
+  color: #4B5476;
+}
+
+
+
+.resume {
+  float: right;
+}
+
+.intro {
+  margin-bottom: 200px;
+}
+
+.projects {
+  font-size: 24px;
+  color: #4B5476;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project {
+  flex: 0 1 auto;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 75px 0 25px 0;
+}
+
+#bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+a:hover {
+  color: #292D3D;
+}
+
+a:visited {
+  color: #4B5476;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section-header {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.school {
+  font-size: 16px;
+  font-weight: normal;
+  padding-bottom: 5px;
+}
+
+.skill-header {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.skill-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.job {
+  font-weight: bold;
+}
+
+.duke, .pace {
+  font-weight: bold;
+}
+
+.gray {
+  color: #555555;
+}
+
+.blue {
+  color: #4B5476;
+}
