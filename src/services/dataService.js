@@ -23,7 +23,7 @@ export default class DataService {
             {
               jobTitle: 'Software Engineer',
               company: 'Propel',
-              location: 'Brooklyn, NY',
+              location: 'Brooklyn',
               period: 'JUNE 2019 – FEB 2025',
               accomplishments: [
                 'Built out debit card program', 
@@ -39,8 +39,8 @@ export default class DataService {
             },
             {
               jobTitle: 'Computer Science Teacher',
-              company: 'Styuvesant High School',
-              location: 'New York City, NY',
+              company: 'Stuyvesant',
+              location: 'New York City',
               period: 'SEPT 2017 – JUNE 2018',
               accomplishments: [
                 'Taught 10th grade introduction to computer science',
@@ -50,7 +50,7 @@ export default class DataService {
             {
               jobTitle: 'Web Development Instructor',
               company: 'Pursuit',
-              location: 'Long Island City, NY',
+              location: 'Long Island City',
               period: 'JULY 2016 – SEPT 2017',
               accomplishments: [
                 'Designed and implemented a full-stack curriculum',
@@ -60,7 +60,7 @@ export default class DataService {
             {
               jobTitle: 'Science Teacher',
               company: 'New York City Teaching Fellows',
-              location: 'Flushing, NY',
+              location: 'Flushing',
               period: 'JUNE 2013 – JUNE 2015',
               accomplishments: [
                 'Taught 6th & 7th grade general science',
@@ -108,12 +108,12 @@ export default class DataService {
         content: {
           emailText:
             'Shoot me an email at ',
-          email: 'charles.kuang@protonmail.com',
+          email: 'chkuang8@gmail.com',
           socialText: 'Or you can reach me out through:',
           social: [
             {
               name: 'FaLinkedin',
-              link: 'https://www.linkedin.com/in/insaf-khamzin-915237129/',
+              link: 'https://www.linkedin.com/in/charleskuang/',
             },
             {
               name: 'FaGithub',
