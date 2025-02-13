@@ -19,18 +19,52 @@ export default class DataService {
         name: 'Resume.txt',
         icon: 'notepad_2',
         content: {
-          resumeLink:
-            // NOTE(charles): update resume link here
-            '<insert-resume-link>',
           workExperience: [
             {
               jobTitle: 'Software Engineer',
               company: 'Propel',
-              location: 'Brooklyn',
+              location: 'Brooklyn, NY',
               period: 'JUNE 2019 – FEB 2025',
               accomplishments: [
-                'Built stuff.',
-                'Technologies used: Python, JavaScript, PostgreSQL, Redis',
+                'Built out debit card program', 
+                'Drove user growth',
+                'Maintained scrapers',
+                'Launched new features', 
+                'Staffed on-call rotation', 
+                'Addressed bugs',
+                'Wrote tests',
+                'Developed internal tools',
+                'Technologies: Python, JavaScript, PostgreSQL, Redis',
+              ],
+            },
+            {
+              jobTitle: 'Computer Science Teacher',
+              company: 'Styuvesant High School',
+              location: 'New York City, NY',
+              period: 'SEPT 2017 – JUNE 2018',
+              accomplishments: [
+                'Taught 10th grade introduction to computer science',
+                'Technologies: Scheme, Netlogo, Python', 
+              ],
+            },
+            {
+              jobTitle: 'Web Development Instructor',
+              company: 'Pursuit',
+              location: 'Long Island City, NY',
+              period: 'JULY 2016 – SEPT 2017',
+              accomplishments: [
+                'Designed and implemented a full-stack curriculum',
+                'Technologies: JavaScript', 
+              ],
+            },
+            {
+              jobTitle: 'Science Teacher',
+              company: 'New York City Teaching Fellows',
+              location: 'Flushing, NY',
+              period: 'JUNE 2013 – JUNE 2015',
+              accomplishments: [
+                'Taught 6th & 7th grade general science',
+                'Taught 9th grade living environment/biology',
               ],
             },
           ],
