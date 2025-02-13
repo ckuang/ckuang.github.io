@@ -21,7 +21,7 @@ function Projects({ content }) {
                             project.myRole &&
                             <p><strong>My role:</strong> {project.myRole}</p>
                         }
-                        <p><strong>Tech Stack:</strong> {project.techStack}</p>
+                        <p><strong>Technologies:</strong> {project.techStack}</p>
                         {
                             project.url &&
                             <StyledLink href={project.url} target="__blank">Link</StyledLink>

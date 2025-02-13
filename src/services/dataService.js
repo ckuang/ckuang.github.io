@@ -95,7 +95,7 @@ export default class DataService {
               description:
                 'Cat-themed bubble shooter game',
               techStack:
-                'JS, HTML Canvas',
+                'JavaScript, HTML Canvas',
               url: 'https://ckuang.github.io/pusheen-pop',
             },
           ],
