@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Icon } from '@react95/core'
-import {startWebamp} from '../utils/startWebamp';
 
 const StyledShorcut = styled.div`
     margin-left: 20px;
@@ -19,14 +18,6 @@ function Shortcuts({ openExplorer }) {
                     onClick={() => openExplorer()}
                 />
                 <div>Explorer</div>
-            </StyledShorcut>
-            <StyledShorcut>
-                <Icon
-                    className="pointer"
-                    name="media_cd"
-                    onClick={()=>startWebamp()}
-                />
-                <div>Media</div>
             </StyledShorcut>
         </div>
     )
