@@ -1,13 +1,7 @@
 import React from 'react';
-import { Button } from '@react95/core';
-import styled from 'styled-components';
-
-const StyledLink = styled.a`
-  margin-bottom: 10px;
-`;
 
 function Resume({ content }) {
-  const { workExperience, education, resumeLink } = content;
+  const { workExperience, education } = content;
 
   return (
     <div>
@@ -41,11 +35,6 @@ function Resume({ content }) {
           <br />
         </div>
       ))}
-      <StyledLink href={resumeLink} download>
-        <Button style={{ fontSize: '14px' }} className="pointer">
-          Download Resume
-        </Button>
-      </StyledLink>
     </div>
   );
 }
