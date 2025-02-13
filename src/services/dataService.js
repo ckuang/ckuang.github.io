@@ -68,25 +68,6 @@ export default class DataService {
         },
       },
       {
-        id: 'skills',
-        name: 'Skills.txt',
-        icon: 'progman_11',
-        content: {
-          hard: [
-            {
-              name: 'Python',
-              progress: 100,
-            },
-            {
-              name: 'JavaScript',
-              progress: 100,
-            },
-          ],
-          // NOTE(charles): update soft skills
-          soft: 'soft skillz',
-        },
-      },
-      {
         id: 'contact',
         name: 'Contact.txt',
         icon: 'inetcfg_2301',

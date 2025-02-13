@@ -2,7 +2,6 @@ import React, { useEffect, useState, useContext } from 'react'
 import DataContext from '../../contexts/dataContext'
 import About from './About'
 import Resume from './Resume'
-import Skills from './Skills'
 import Contact from './Contact'
 import Projects from './Projects'
 
@@ -24,8 +23,6 @@ function ContentFactory({ id, isMobile }) {
             return <About content={item.content} />
         case 'resume':
             return <Resume content={item.content} />
-        case 'skills':
-            return <Skills content={item.content} isMobile={isMobile} />
         case 'contact':
             return <Contact content={item.content} />
         case 'projects':
